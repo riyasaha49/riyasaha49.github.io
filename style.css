@@ -75,18 +75,19 @@ body {
   padding-top: 80px;
 }
 
-.project-card img {
-  height: 200px;
-  object-fit: cover;
-}
-
 .project-card {
-  transition: transform 0.3s, box-shadow 0.3s;
+    max-width: 350px;
+    margin: auto;
+    transition: transform 0.3s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    transform: translateY(-5px);
+}
+
+.project-card img {
+    height: 180px;
+    object-fit: cover;
 }
 
 
